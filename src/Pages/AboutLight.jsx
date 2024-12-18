@@ -29,7 +29,7 @@ const AboutLight = () => {
             <Mission1></Mission1>
             <Vission1></Vission1>
             <Testimonial1></Testimonial1>
-            {/* <Team2></Team2> */}
+            <Team2></Team2>
             <Cta1></Cta1>
         </div>
     );
