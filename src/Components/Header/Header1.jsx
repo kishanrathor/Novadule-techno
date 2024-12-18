@@ -35,13 +35,13 @@ export default function Header1({ variant }) {
         mobileToggle ? 'cs_mobile_toggle_active' : ''
       } ${isSticky ? isSticky : ''}`}
     >
-      <div className="cs_top_header">
+      {/* <div className="cs_top_header">
         <div className="container">
           <div className="row">
           
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="cs_main_header cs_accent_bg">
         <div className="container">
           <div className="cs_main_header_in">
