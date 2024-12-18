@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Nav({ setMobileToggle }) {
   return (
-    <ul className="cs_nav_list fw-bold">
+    <ul className="cs_nav_list fw-medium">
       <li className="menu-item">
         <Link to="/">Home</Link>
         {/* <DropDown>
