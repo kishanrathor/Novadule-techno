@@ -1,0 +1,27 @@
+[
+  
+  {
+    "icon": "/assets/img/icons/service-icon3.png",
+    "title": "Cybersecurity & Compliance",
+    "desc": "Protect your business from evolving cyber threats and ensure compliance with industry regulations with comprehensive.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon4.png",
+    "title": "Software Development",
+    "desc": "Transform your ideas into reality with our custom software development and integration services whether you need.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  },
+  {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }   
+]
