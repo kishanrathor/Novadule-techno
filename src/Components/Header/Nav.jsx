@@ -58,7 +58,7 @@ export default function Nav({ setMobileToggle }) {
 
       </li>      
 
-      <li className="menu-item-has-children">
+      <li className="">
         <Link to="#">Pages</Link>
         <DropDown>
           <ul>
