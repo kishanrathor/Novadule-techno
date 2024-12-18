@@ -14,10 +14,10 @@ const AboutLight = () => {
             <MarqueeText></MarqueeText>
             <About6
                 image1="/assets/img/about/about2-img1.png"
-                image2="/assets/img/about/about2-img2.png"
+                image2="/assets/img/about/image-470x400 (1).jpg"
                 image3="/assets/img/about/about2-img3.png"
-                experienceNum="25"
-                experienceTitle="Years Of <br> Experience"
+                experienceNum=""
+                experienceTitle="Best <br> IT solution"
                 subTitle="Our Service"
                 title="Empower Your Business With Our Comprehensive IT Solutions"
                 content="Welcome to TechXen, your premier destination for cutting-edge technology solutions and IT services. At TechXen, we are passionate about harnessing the power of technology to empower businesses a like."
@@ -29,7 +29,7 @@ const AboutLight = () => {
             <Mission1></Mission1>
             <Vission1></Vission1>
             <Testimonial1></Testimonial1>
-            <Team2></Team2>
+            {/* <Team2></Team2> */}
             <Cta1></Cta1>
         </div>
     );

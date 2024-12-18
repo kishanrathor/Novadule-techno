@@ -2852,6 +2852,7 @@ body.body {
 .image-anime {
   position: relative;
   overflow: hidden;
+  /* border-radius: 04% */
 }
 
 .image-anime:after {

@@ -10,21 +10,21 @@ const Vission1 = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="image">
-                      <img src="/assets/img/about/visiton-img1.png" alt="" />
+                      <img src="/assets/img/about/image-570x320 (1).jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="space30"></div>
                     <div className="image">
-                      <img src="/assets/img/about/visiton-img2.png" alt="" />
+                      <img src="/assets/img/about/image-270x250 (2).jpg" alt="" />
                     </div>
                   </div>
 
                   <div className="col-lg-6">
                     <div className="space30"></div>
                     <div className="image">
-                      <img src="/assets/img/about/visiton-img3.png" alt="" />
+                      <img src="/assets/img/about/image-270x250 (3).jpg" alt="" />
                     </div>
                   </div>
 

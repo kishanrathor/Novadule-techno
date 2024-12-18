@@ -23,15 +23,15 @@ const Mission1 = () => {
 
               <div className="col-lg-6">
                 <div className="solution-images">
-                  <div className="image1">
+                  {/* <div className="image1">
                     <img src="/assets/img/others/solution-img1.png" alt="" />
-                  </div>
+                  </div> */}
                   <div className="image2">
-                    <img src="/assets/img/others/solution-img2.png" alt="" />
+                    <img src="/assets/img/others/image-470x400.jpg" alt="" />
                   </div>
-                  <div className="image3">
+                  {/* <div className="image3">
                     <img src="/assets/img/others/solution-img3.png" alt="" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

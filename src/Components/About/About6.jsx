@@ -8,15 +8,15 @@ const About6 = ({image1,image2,image3,experienceNum,experienceTitle,subTitle,tit
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="about2-images">
-                  <div className="image1" data-aos="zoom-in-right" data-aos-duration="800">
+                  {/* <div className="image1" data-aos="zoom-in-right" data-aos-duration="800">
                     <img src={image1} alt="" />
-                  </div>
+                  </div> */}
                   <div className="image2 image-anime">
                     <img src={image2} alt="" />
                   </div>
-                  <div className="image3" data-aos="zoom-in-left" data-aos-duration="900">
+                  {/* <div className="image3" data-aos="zoom-in-left" data-aos-duration="900">
                     <img src={image3} alt="" />
-                  </div>
+                  </div> */}
                   <div className="counter-box" data-aos="flip-left" data-aos-duration="700">
                     <h3>{experienceNum}</h3>
                     <p>{parse(experienceTitle)}</p>
