@@ -23,5 +23,53 @@
     "btnText": "Learn More",
     "btnLink": "/service/service-details",
     "addClass": "col-lg-4"
-  }   
+  } ,
+  {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }  ,  
+  {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }  , {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }  
+  , {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }  
+  , {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }  
+  , {
+    "icon": "/assets/img/icons/service-icon5.png",
+    "title": "It Consulting & Support",
+    "desc": "Navigate the complexities of the digital landscape with confidence with our IT consulting and support services.",   
+    "btnText": "Learn More",
+    "btnLink": "/service/service-details",
+    "addClass": "col-lg-4"
+  }  
+  
 ]
