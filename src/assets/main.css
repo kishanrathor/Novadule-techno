@@ -19248,13 +19248,14 @@ a.header__search.header-search-btn p {
 .header_right_one .header1-buttons .contact-btn .headding p {
   font-size: 12px;
   line-height: 12px;
-  color: var(--ztc-text-pera-text-1);
+  color: #ffffff;
+ 
 }
 .header_right_one .header1-buttons .contact-btn .headding a {
   font-size: var(--f-fs-font-fs16);
   line-height: var(--f-fs-font-fs16);
   font-weight: var(--f-fw-blod);
-  color: var(--ztc-text-text-1);
+  color: #ffffff;
   display: inline-block;
   margin-top: 10px;
 }
@@ -23234,7 +23235,7 @@ li.has-dropdown1 span {
     color: #fff;
  }
  .header-area2 .cs_nav {
-  color: #000;
+  color: #FFFFFF;
 }
   .cs_nav .cs_nav_list {
     display: flex !important;

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function Nav({ setMobileToggle }) {
   return (
-    <ul className="cs_nav_list fw-medium">
-      <li className="menu-item-has-children">
+    <ul className="cs_nav_list fw-bold">
+      <li className="menu-item">
         <Link to="/">Home</Link>
-        <DropDown>
+        {/* <DropDown>
           <ul>
             <li>
               <Link to="/" onClick={() => setMobileToggle(false)}>
@@ -19,29 +19,29 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>
             <li>
-              {/* <Link to="/home3" onClick={() => setMobileToggle(false)}>
+              <Link to="/home3" onClick={() => setMobileToggle(false)}>
                 Home Version 3
-              </Link> */}
+              </Link>
             </li>  
             <li>
-              {/* <Link to="/home4" onClick={() => setMobileToggle(false)}>
+              <Link to="/home4" onClick={() => setMobileToggle(false)}>
                 Home Version 4
-              </Link> */}
+              </Link>
             </li>
             <li>
-              {/* <Link to="/home5" onClick={() => setMobileToggle(false)}>
+              <Link to="/home5" onClick={() => setMobileToggle(false)}>
                 Home Version 5
-              </Link> */}
+              </Link>
             </li>                                     
           </ul>
-        </DropDown>
+        </DropDown> */}
       </li>
 
-      <li className="menu-item-has-children">
+      <li className="menu-item">
         <Link to="/about" onClick={() => setMobileToggle(false)}>
         About Us  
         </Link>
-        <DropDown>
+        {/* <DropDown>
           <ul>
             <li>
               <Link to="/about" onClick={() => setMobileToggle(false)}>
@@ -54,7 +54,7 @@ export default function Nav({ setMobileToggle }) {
               </Link>
             </li>                        
           </ul>
-        </DropDown>
+        </DropDown> */}
 
       </li>      
 
