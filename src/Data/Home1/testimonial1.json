@@ -5,7 +5,8 @@
     "title": "What Our Clients Are Saying",
     "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
     "clientName": "Kelly Williamson", 
-    "designation": "Client"
+    "designation": "Client",
+    "rating": "(4.5)"
   },
   {
     "image1": "/assets/img/testimonial/tes1-smoll-img.png",
@@ -13,6 +14,71 @@
     "title": "What Our Clients Are Saying",
     "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
     "clientName": "Kelly Williamson", 
-    "designation": "Client"
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
+  },
+  {
+    "image1": "/assets/img/testimonial/tes1-smoll-img.png",
+    "image2": "/assets/img/testimonial/image-358x384 (1).jpg",
+    "title": "What Our Clients Are Saying",
+    "desc": "The team at TechXen went above and beyond to understand our business needs and deliver a tailored IT solution that exceeded our expectations. Their expertise and dedication, and we couldn't be happier with the results.",
+    "clientName": "Kelly Williamson", 
+    "designation": "Client",
+    "rating": "(4.5)"
   }
+
 ]

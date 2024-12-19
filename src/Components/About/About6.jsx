@@ -1,26 +1,24 @@
 import { Link } from "react-router-dom";
 import parse from 'html-react-parser';
+import Cta1 from "../Cta/Cta1";
 
-const About6 = ({image1,image2,image3,experienceNum,experienceTitle,subTitle,title,content,counName1,CounNum1,counName2,CounNum2}) => {
+const About6 = ({image2,image3,experienceNum,experienceTitle,subTitle,title,content,counName1,CounNum1,counName2,CounNum2}) => {
     return (
-        <div className="about2 about-page-sec sp">
+      <div>
+        <div className="about2 about-page-sec sp " >
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <div className="about2-images">
-                  {/* <div className="image1" data-aos="zoom-in-right" data-aos-duration="800">
-                    <img src={image1} alt="" />
-                  </div> */}
-                  <div className="image2 image-anime">
-                    <img src={image2} alt="" />
+                <div className="">
+                 
+                  <div className="image2 image-anime ">
+                    <img src={image2} alt=""className="h-75" />
                   </div>
-                  {/* <div className="image3" data-aos="zoom-in-left" data-aos-duration="900">
-                    <img src={image3} alt="" />
-                  </div> */}
-                  <div className="counter-box" data-aos="flip-left" data-aos-duration="700">
+                 
+                  {/* <div className="counter-box" data-aos="flip-left" data-aos-duration="700">
                     <h3>{experienceNum}</h3>
                     <p>{parse(experienceTitle)}</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -59,6 +57,9 @@ const About6 = ({image1,image2,image3,experienceNum,experienceTitle,subTitle,tit
               </div>
             </div>
           </div>
+
+        </div>
+        <Cta1/>
         </div>
     );
 };

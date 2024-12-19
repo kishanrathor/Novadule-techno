@@ -1,4 +1,4 @@
-import data from '../../Data/testimonialPage.json';
+import data from '../../Data/Home1/testimonial1.json';
 
 const Testimonial5 = () => {
     return (
@@ -15,7 +15,7 @@ const Testimonial5 = () => {
       
                         <div className="bottom-area">
                           <div className="author">
-                            <a href="#">{item.title}</a>
+                            <a href="#">{item.clientName}</a>
                           </div>
                           <div className="reating">
                             <ul>

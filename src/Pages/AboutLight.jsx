@@ -10,15 +10,15 @@ import Testimonial1 from "../Components/Testimonial/Testimonial1";
 const AboutLight = () => {
     return (
         <div>
-            <BreadCumb Title="About Us"></BreadCumb>
-            <MarqueeText></MarqueeText>
+            {/* <BreadCumb Title="About Us"></BreadCumb>
+            <MarqueeText></MarqueeText> */}
             <About6
                 image1="/assets/img/about/about2-img1.png"
                 image2="/assets/img/about/image-470x400 (1).jpg"
                 image3="/assets/img/about/about2-img3.png"
                 experienceNum=""
                 experienceTitle="Best <br> IT solution"
-                subTitle="Our Service"
+                subTitle="Who we are"
                 title="Empower Your Business With Our Comprehensive IT Solutions"
                 content="Welcome to TechXen, your premier destination for cutting-edge technology solutions and IT services. At TechXen, we are passionate about harnessing the power of technology to empower businesses a like."
                 counName1="IT Consulting"
@@ -28,7 +28,7 @@ const AboutLight = () => {
             ></About6>
             <Mission1></Mission1>
             <Vission1></Vission1>
-            <Testimonial1></Testimonial1>
+            {/* <Testimonial1></Testimonial1> */}
             <Team2></Team2>
             <Cta1></Cta1>
         </div>

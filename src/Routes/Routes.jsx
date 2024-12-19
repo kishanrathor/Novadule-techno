@@ -41,7 +41,11 @@ import BlogPageDark from "../Pages/BlogPageDark";
 import BlogDetailsLeftDark from "../Pages/BlogDetailsLeftDark";
 import BlogDetailsRightDark from "../Pages/BlogDetailsRightDark";
 import BlogDetailsCenterDark from "../Pages/BlogDetailsCenterDark";
-
+import About6 from "../Components/About/About6";
+import Vission1 from "../Components/Mission/Vission1";
+import Team2 from "../Components/Team/Team2";
+import Banking from "../Components/Industries/Banking";
+import CapitalMarket from "../Components/Industries/CapitalMarket";
 
 export const router = createBrowserRouter([
     {
@@ -57,9 +61,44 @@ export const router = createBrowserRouter([
             element:<AboutLight></AboutLight> ,
         }, 
         {
+          path:"/weare",
+          element: <About6
+          image1="/assets/img/about/about2-img1.png"
+          image2="/assets/img/about/image-470x400 (1).jpg"
+          image3="/assets/img/about/about2-img3.png"
+          experienceNum=""
+          experienceTitle="Best <br> IT solution"
+          subTitle="Who we are"
+          title="Empower Your Business With Our Comprehensive IT Solutions"
+          content="Welcome to TechXen, your premier destination for cutting-edge technology solutions and IT services. At TechXen, we are passionate about harnessing the power of technology to empower businesses a like."
+          counName1="IT Consulting"
+          CounNum1="100%"
+          counName2="Cyber Security"
+          CounNum2="98%"
+      ></About6>,
+        },
+        {
+          path:"/vision",
+          element:<Vission1/>,
+        },
+        {
           path: "/service",
           element:<ServicePage></ServicePage> ,
-        }, 
+        },
+        {
+          path:"/ourteam",
+          element:<Team2/>
+
+        } ,
+        {
+          path:"/banking",
+          element:<Banking/>
+
+        } ,
+        {
+                path:"/capitalmarket",
+                element:<CapitalMarket/>
+        },
         {
           path: "/service/service-details",
           element:<ServiceDetailsLeft></ServiceDetailsLeft> ,
@@ -161,10 +200,8 @@ export const router = createBrowserRouter([
     {
       element:<Layout6></Layout6>,
       children: [
-        {
-          path: '/aboutdark',
-          element: <AboutDark></AboutDark>,
-        }, 
+                                                                                                  
+        
         {
           path: '/projectDark',
           element: <ProjectPageDark></ProjectPageDark>,
@@ -212,7 +249,9 @@ export const router = createBrowserRouter([
         {
           path: "/blog/blog-details-center-dark",
           element:<BlogDetailsCenterDark></BlogDetailsCenterDark>,
-        },                                                                                            
+        },  
+       
       ],
+
     },                   
   ]);

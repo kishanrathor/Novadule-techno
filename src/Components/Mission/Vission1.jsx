@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Mission1 from "./Mission1";
+import Cta1 from "../Cta/Cta1";
 
 const Vission1 = () => {
     return (
@@ -73,6 +75,8 @@ const Vission1 = () => {
 
           </div>
         </div>
+        <Mission1/>
+        <Cta1></Cta1>
       </div>
     );
 };

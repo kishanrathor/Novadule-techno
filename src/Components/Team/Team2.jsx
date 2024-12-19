@@ -1,4 +1,5 @@
 import data from '../../Data/home2/team1.json';
+import Cta1 from '../Cta/Cta1';
 
 const Team2 = () => {
     return (
@@ -46,6 +47,7 @@ const Team2 = () => {
             </div>
 
           </div>
+          <Cta1></Cta1>
         </div>
     );
 };

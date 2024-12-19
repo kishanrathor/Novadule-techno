@@ -43,14 +43,14 @@ const Home = () => {
                     "Incorporate visuals such as team photos shots.",
                 ]}
                 btnName="Discover More"
-                btnUrl="/about"
+                btnUrl="/v"
             ></About1>
             <Services1></Services1>
             {/* <Choose1></Choose1> */}
-            <Project1></Project1>
+            {/* <Project1></Project1> */}
             {/* <Pricing1></Pricing1> */}
             <Testimonial1></Testimonial1>
-            <Blog1></Blog1>
+            {/* <Blog1></Blog1> */}
             <Cta1></Cta1>
         </div>
     );

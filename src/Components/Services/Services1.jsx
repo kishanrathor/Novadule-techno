@@ -1,8 +1,17 @@
+import React, { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 import data from '../../Data/Home1/services1.json';
 import { Link } from "react-router-dom";
 
 const Services1 = () => {
+  // State to toggle between showing 6 cards or all cards
+  const [showAll, setShowAll] = useState(false);
+
+  // Function to handle the toggle between "View More" and "View Less"
+  const toggleView = () => {
+    setShowAll(!showAll);
+  };
+
   return (
     <div className="service sp">
       <div className="container">
@@ -19,8 +28,14 @@ const Services1 = () => {
 
         <div className="space30"></div>
         <div className="row">
-          {data.map((item, i) => (
-            <div key={i} className={`col-12 col-md-6 col-lg-4 ${item.addClass}`} data-aos="zoom-in-up" data-aos-duration="700">
+          {/* Show only the first 6 items unless `showAll` is true */}
+          {data.slice(0, showAll ? data.length : 3).map((item, i) => (
+            <div
+              key={i}
+              className={`col-12 col-md-6 col-lg-4 ${item.addClass}`}
+              data-aos="zoom-in-up"
+              data-aos-duration="700"
+            >
               <div className="single-box">
                 <div className="icon">
                   <img src={item.icon} alt="" />
@@ -42,6 +57,17 @@ const Services1 = () => {
             </div>
           ))}
         </div>
+        <div className="text-center mt-4">
+  <button
+    className=" theme-btn1 btn-sm toggle-btn"
+    onClick={toggleView}
+  >
+    {showAll ? "View Less" : "View More"}
+    <span className={`arrow ${showAll ?  "arrow-down":"arrow-up" }`}></span>
+  </button>
+</div>
+
+
       </div>
     </div>
   );

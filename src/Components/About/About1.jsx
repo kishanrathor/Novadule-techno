@@ -75,12 +75,12 @@ const About1 = ({
               data-aos="fade-left"
               data-aos-duration="900"
             >
-              <Link className="theme-btn1" to={btnUrl}>
+              {/* <Link className="theme-btn1" to={btnUrl}>
                 {btnName}{" "}
                 <span>
                   <i className="bi bi-arrow-right"></i>
                 </span>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
